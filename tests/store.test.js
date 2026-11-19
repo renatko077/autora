@@ -57,6 +57,13 @@ test('health, imported catalog, assets and direct product URLs', async () => {
   for (const product of products) {
     assert.ok(product.price_from > 0 && product.price_to >= product.price_from);
     assert.ok(fs.existsSync(path.join(root,'public',product.image_url)));
+    assert.equal(product.image_kind,'reference_photo');
+    assert.ok(product.image_url.startsWith('/assets/photos/'));
+    assert.ok(product.image_width >= 120 && product.image_height >= 100);
+    assert.ok(/(^|\.)rozetka\.com\.ua$/.test(new URL(product.source_url).hostname));
+    const photo = fs.readFileSync(path.join(root,'public',product.image_url));
+    assert.equal(photo.subarray(0,4).toString(),'RIFF');
+    assert.equal(photo.subarray(8,12).toString(),'WEBP');
   }
   assert.equal((await request('/assets/hero.webp')).headers.get('content-type'), 'image/webp');
   const direct = await request('/tovar/avtomobilnyi-trymach-telefonu-na-deflektor-1');

@@ -55,6 +55,7 @@ function slugify(value, id) {
 
 function categoryFor(name) {
   const lower = name.toLowerCase();
+  if (/ремонту.*шин/.test(lower)) return 'Живлення та інструмент';
   if (/реєстратор|камер|огляд|360|паркуван|паркувальн|радар|tpms|тиску шин|тиску в шинах|сканер/.test(lower)) return 'Камери та безпека';
   if (/магнітол|мультимед|carplay|трансмітер/.test(lower)) return 'Мультимедіа';
   if (/компресор/.test(lower) && !/холодиль/.test(lower) || /пусков|jump|інвертор|пускові дроти|запобіж|ремонту.*шин/.test(lower)) return 'Живлення та інструмент';
@@ -84,12 +85,16 @@ function cartCount() {
 }
 
 function productPhoto(product, className = 'product-photo') {
-  return `<img class="${className}" src="${escapeHTML(product.image_url || '')}" alt="${escapeHTML(product.name)}" loading="lazy" decoding="async" />`;
+  return `<img class="${className}" src="${escapeHTML(product.image_url || '')}" data-fallback="${escapeHTML(product.image_fallback_url || '')}" alt="${escapeHTML(product.name)}" loading="lazy" decoding="async" />`;
 }
 
 function bindPhotoFallbacks(root = document) {
   $$('.product-photo, .detail-photo, .cart-photo, .hero-product-photo', root).forEach((photo) => {
     const markBroken = () => {
+      if (photo.dataset.fallback && photo.src !== new URL(photo.dataset.fallback,location.origin).href) {
+        photo.src = photo.dataset.fallback;
+        return;
+      }
       photo.classList.add('is-broken');
       photo.closest('.product-art, .product-detail-art, .cart-item-art, .hero-product-tile')?.classList.add('photo-unavailable');
     };
@@ -299,9 +304,12 @@ function productPageMarkup(product) {
   const category = categoryFor(product.name);
   const color = categoryColors[category] || 'sage';
   const related = state.products.filter((item) => item.id !== product.id && categoryFor(item.name) === category).slice(0, 4);
+  const photoSource = product.source === 'Rozetka' && product.source_url
+    ? `Фото прикладу моделі: <a href="${escapeHTML(product.source_url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(product.source_title || 'Rozetka')}</a>. Точну модель і комплектацію уточнюй перед оплатою.`
+    : 'Зображення відповідного типу товару.';
   return `<div class="product-breadcrumb"><a href="/#catalog" data-back-to-catalog>Каталог</a><span>／</span><span>${escapeHTML(category)}</span><span>／</span><span>${escapeHTML(product.name)}</span></div>
     <div class="product-detail-layout">
-      <div class="product-detail-media"><div class="product-detail-art art-${color}">${productPhoto(product, 'detail-photo')}<span class="detail-art-label">№ ${String(product.id).padStart(3, '0')}</span><button class="photo-zoom-button" type="button" data-photo-zoom aria-label="Розглянути ілюстрацію товару"> Розглянути ілюстрацію</button></div><p class="photo-source">Ілюстрація AUTORA. Зовнішній вигляд конкретної моделі може відрізнятися.</p></div>
+      <div class="product-detail-media"><div class="product-detail-art art-${color}">${productPhoto(product, 'detail-photo')}<span class="detail-art-label">№ ${String(product.id).padStart(3, '0')}</span><button class="photo-zoom-button" type="button" data-photo-zoom aria-label="Збільшити фото товару">Збільшити фото</button></div><p class="photo-source">${photoSource}</p></div>
       <div class="product-detail-copy"><span class="eyebrow">ДЕТАЛЬ ДЛЯ ТВОГО МАРШРУТУ</span><h1>${escapeHTML(product.name)}</h1><div class="detail-price"><strong>${money(unitPrice(product))} ₴</strong><span>орієнтовно · діапазон ${product.price_from}–${product.price_to} ₴</span></div><p class="detail-description">Аксесуар із каталогу AUTORA. Ціна замовлення — середина зазначеного діапазону. Перед оплатою перевір сумісність із моделлю свого авто. Доставка оплачується окремо.</p><div class="detail-facts"><div><span class="fact-check">✓</span><span>Номер у списку</span><b>${String(product.id).padStart(3, '0')}</b></div><div><span class="fact-check">✓</span><span>Категорія</span><b>${escapeHTML(category)}</b></div><div><span class="fact-check">✓</span><span>Оплата переказом</span><b>після оформлення</b></div></div><button class="button button-dark detail-add" type="button" data-add="${product.id}">Додати до кошика <span>+</span></button><button class="detail-favorite ${state.favorites.includes(product.id) ? 'is-favorite' : ''}" type="button" data-favorite="${product.id}">${state.favorites.includes(product.id) ? '♥' : '♡'} <span>${state.favorites.includes(product.id) ? 'В обраному' : 'Додати в обране'}</span></button><p class="detail-note">Реквізити та точну суму для переказу покажемо після оформлення кошика.</p></div>
     </div><section class="related-products"><div class="related-heading"><div><span class="eyebrow">ЩЕ З ЦІЄЇ КАТЕГОРІЇ</span><h2>Вам може <em>сподобатись</em></h2></div><a href="/#catalog" data-back-to-catalog>Увесь каталог</a></div><div class="related-grid">${related.map((item, index) => cardMarkup(item, index)).join('')}</div></section><a class="more-products-link" href="/#catalog" data-back-to-catalog>Повернутися до каталогу</a>`;
 }

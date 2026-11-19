@@ -54,5 +54,12 @@ for (const [kind, shape] of Object.entries(shapes)) {
   fs.writeFileSync(path.join(assetDir, `${kind}.svg`), `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 310" role="img"><title>Ілюстрація автомобільного аксесуара</title><defs><linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#596573"/><stop offset=".5" stop-color="#2a3543"/><stop offset="1" stop-color="#14202c"/></linearGradient><linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b4bdc7"/><stop offset=".4" stop-color="#758392"/><stop offset="1" stop-color="#3b4c5d"/></linearGradient><filter id="blur"><feGaussianBlur stdDeviation="9"/></filter></defs><ellipse cx="211" cy="256" rx="98" ry="13" fill="#263648" opacity=".13" filter="url(#blur)"/><g>${shape}</g></svg>`);
 }
 const products = JSON.parse(fs.readFileSync(path.join(root, 'data', 'products.json'), 'utf8'));
-fs.writeFileSync(path.join(root, 'data', 'product-images.json'), JSON.stringify(products.map(p => ({id:p.id,image_url:`/assets/products/${kindFor(p.name)}.svg`,source:'Ілюстрація AUTORA',image_kind:'illustration'})),null,2));
+const manifestPath=path.join(root,'data','product-images.json');
+const previous=fs.existsSync(manifestPath)?new Map(JSON.parse(fs.readFileSync(manifestPath,'utf8')).map(p=>[p.id,p])):new Map();
+fs.writeFileSync(manifestPath, JSON.stringify(products.map(p => {
+  const fallback=`/assets/products/${kindFor(p.name)}.svg`;
+  const current=previous.get(p.id);
+  return current?.image_kind==='reference_photo' ? {...current,image_fallback_url:fallback}
+    : {id:p.id,image_url:fallback,source:'Ілюстрація AUTORA',image_kind:'illustration'};
+}),null,2)+'\n');
 console.log(`Created ${Object.keys(shapes).length} local illustrations for ${products.length} products.`);
