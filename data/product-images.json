@@ -1,0 +1,1412 @@
+[
+  {
+    "id": 1,
+    "image_url": "/assets/products/holder.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 2,
+    "image_url": "/assets/products/holder.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 3,
+    "image_url": "/assets/products/charger.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 4,
+    "image_url": "/assets/products/charger.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 5,
+    "image_url": "/assets/products/charger.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 6,
+    "image_url": "/assets/products/aroma.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 7,
+    "image_url": "/assets/products/aroma.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 8,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 9,
+    "image_url": "/assets/products/organizer.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 10,
+    "image_url": "/assets/products/charger.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 11,
+    "image_url": "/assets/products/hooks.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 12,
+    "image_url": "/assets/products/organizer.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 13,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 14,
+    "image_url": "/assets/products/windshield.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 15,
+    "image_url": "/assets/products/brush.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 16,
+    "image_url": "/assets/products/brush.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 17,
+    "image_url": "/assets/products/cloth.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 18,
+    "image_url": "/assets/products/cloth.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 19,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 20,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 21,
+    "image_url": "/assets/products/compressor.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 22,
+    "image_url": "/assets/products/vacuum.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 23,
+    "image_url": "/assets/products/holder.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 24,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 25,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 26,
+    "image_url": "/assets/products/inverter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 27,
+    "image_url": "/assets/products/organizer.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 28,
+    "image_url": "/assets/products/organizer.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 29,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 30,
+    "image_url": "/assets/products/holder.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 31,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 32,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 33,
+    "image_url": "/assets/products/diagnostics.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 34,
+    "image_url": "/assets/products/diagnostics.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 35,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 36,
+    "image_url": "/assets/products/light.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 37,
+    "image_url": "/assets/products/light.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 38,
+    "image_url": "/assets/products/aroma.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 39,
+    "image_url": "/assets/products/aroma.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 40,
+    "image_url": "/assets/products/brush.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 41,
+    "image_url": "/assets/products/compressor.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 42,
+    "image_url": "/assets/products/vacuum.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 43,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 44,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 45,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 46,
+    "image_url": "/assets/products/holder.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 47,
+    "image_url": "/assets/products/inverter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 48,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 49,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 50,
+    "image_url": "/assets/products/diagnostics.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 51,
+    "image_url": "/assets/products/light.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 52,
+    "image_url": "/assets/products/light.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 53,
+    "image_url": "/assets/products/light.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 54,
+    "image_url": "/assets/products/aroma.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 55,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 56,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 57,
+    "image_url": "/assets/products/windshield.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 58,
+    "image_url": "/assets/products/bottles.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 59,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 60,
+    "image_url": "/assets/products/organizer.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 61,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 62,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 63,
+    "image_url": "/assets/products/vacuum.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 64,
+    "image_url": "/assets/products/compressor.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 65,
+    "image_url": "/assets/products/charger.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 66,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 67,
+    "image_url": "/assets/products/diagnostics.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 68,
+    "image_url": "/assets/products/bottles.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 69,
+    "image_url": "/assets/products/bottles.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 70,
+    "image_url": "/assets/products/organizer.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 71,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 72,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 73,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 74,
+    "image_url": "/assets/products/vacuum.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 75,
+    "image_url": "/assets/products/compressor.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 76,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 77,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 78,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 79,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 80,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 81,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 82,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 83,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 84,
+    "image_url": "/assets/products/compressor.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 85,
+    "image_url": "/assets/products/compressor.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 86,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 87,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 88,
+    "image_url": "/assets/products/inverter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 89,
+    "image_url": "/assets/products/inverter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 90,
+    "image_url": "/assets/products/vacuum.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 91,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 92,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 93,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 94,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 95,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 96,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 97,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 98,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 99,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 100,
+    "image_url": "/assets/products/inverter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 101,
+    "image_url": "/assets/products/inverter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 102,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 103,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 104,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 105,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 106,
+    "image_url": "/assets/products/diagnostics.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 107,
+    "image_url": "/assets/products/diagnostics.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 108,
+    "image_url": "/assets/products/vacuum.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 109,
+    "image_url": "/assets/products/polish.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 110,
+    "image_url": "/assets/products/polish.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 111,
+    "image_url": "/assets/products/bottles.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 112,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 113,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 114,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 115,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 116,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 117,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 118,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 119,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 120,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 121,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 122,
+    "image_url": "/assets/products/compressor.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 123,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 124,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 125,
+    "image_url": "/assets/products/inverter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 126,
+    "image_url": "/assets/products/vacuum.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 127,
+    "image_url": "/assets/products/vacuum.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 128,
+    "image_url": "/assets/products/diagnostics.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 129,
+    "image_url": "/assets/products/polish.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 130,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 131,
+    "image_url": "/assets/products/bottles.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 132,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 133,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 134,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 135,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 136,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 137,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 138,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 139,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 140,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 141,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 142,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 143,
+    "image_url": "/assets/products/compressor.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 144,
+    "image_url": "/assets/products/compressor.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 145,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 146,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 147,
+    "image_url": "/assets/products/inverter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 148,
+    "image_url": "/assets/products/vacuum.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 149,
+    "image_url": "/assets/products/vacuum.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 150,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 151,
+    "image_url": "/assets/products/diagnostics.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 152,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 153,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 154,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 155,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 156,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 157,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 158,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 159,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 160,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 161,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 162,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 163,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 164,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 165,
+    "image_url": "/assets/products/diagnostics.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 166,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 167,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 168,
+    "image_url": "/assets/products/compressor.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 169,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 170,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 171,
+    "image_url": "/assets/products/inverter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 172,
+    "image_url": "/assets/products/diagnostics.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 173,
+    "image_url": "/assets/products/polish.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 174,
+    "image_url": "/assets/products/vacuum.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 175,
+    "image_url": "/assets/products/diagnostics.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 176,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 177,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 178,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 179,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 180,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 181,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 182,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 183,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 184,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 185,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 186,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 187,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 188,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 189,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 190,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 191,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 192,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 193,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 194,
+    "image_url": "/assets/products/compressor.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 195,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 196,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 197,
+    "image_url": "/assets/products/inverter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 198,
+    "image_url": "/assets/products/diagnostics.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 199,
+    "image_url": "/assets/products/polish.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 200,
+    "image_url": "/assets/products/vacuum.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 201,
+    "image_url": "/assets/products/diagnostics.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 202,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 203,
+    "image_url": "/assets/products/bottles.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 204,
+    "image_url": "/assets/products/bottles.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 205,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 206,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 207,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 208,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 209,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 210,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 211,
+    "image_url": "/assets/products/inverter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 212,
+    "image_url": "/assets/products/compressor.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 213,
+    "image_url": "/assets/products/diagnostics.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 214,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 215,
+    "image_url": "/assets/products/bottles.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 216,
+    "image_url": "/assets/products/bottles.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 217,
+    "image_url": "/assets/products/organizer.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 218,
+    "image_url": "/assets/products/comfort.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 219,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 220,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 221,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 222,
+    "image_url": "/assets/products/bottles.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 223,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 224,
+    "image_url": "/assets/products/fridge.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 225,
+    "image_url": "/assets/products/vacuum.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 226,
+    "image_url": "/assets/products/jumpstarter.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 227,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 228,
+    "image_url": "/assets/products/dashcam.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 229,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 230,
+    "image_url": "/assets/products/camera.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 231,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 232,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 233,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 234,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  },
+  {
+    "id": 235,
+    "image_url": "/assets/products/stereo.svg",
+    "source": "Ілюстрація AUTORA",
+    "image_kind": "illustration"
+  }
+]

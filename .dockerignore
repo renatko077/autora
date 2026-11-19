@@ -1,0 +1,11 @@
+.git
+.env
+.env.*
+node_modules
+tmp
+tests
+scripts
+data/runtime
+data/private
+*.zip
+*.log

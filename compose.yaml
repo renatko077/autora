@@ -1,0 +1,17 @@
+services:
+  autora:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: "3000"
+      NODE_ENV: production
+      DATA_DIR: /data
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?Set ADMIN_PASSWORD in your environment}
+      ADMIN_SESSION_SECRET: ${ADMIN_SESSION_SECRET:-}
+      HISTORY_IMPORT_KEY: ${HISTORY_IMPORT_KEY:-}
+    volumes:
+      - autora-orders:/data
+    restart: unless-stopped
+volumes:
+  autora-orders:

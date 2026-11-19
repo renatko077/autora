@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#17191c" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Замовлення · AUTORA</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/admin-theme.css" />
+    <script src="/admin.js" defer></script>
+  </head>
+  <body>
+    <header class="admin-topbar">
+      <a class="admin-brand" href="/" aria-label="AUTORA — у магазин"><span class="admin-brand-mark">A</span><span>AUTORA<span>.</span></span><small>адміністрування</small></a>
+      <div class="topbar-actions"><a class="back-link" href="/">До магазину</a><button id="logoutButton" class="quiet-button" type="button" hidden>Вийти</button></div>
+    </header>
+
+    <main class="admin-main">
+      <div class="admin-heading"><div><span class="eyebrow">ОБЛІК ПРОДАЖІВ</span><h1>Замовлення</h1><p>Історія платежів та нові замовлення AUTORA.</p></div><div class="statement-chip"><span class="statement-dot"></span>Оплату підтверджує адміністратор</div></div>
+
+      <section id="loginPanel" class="login-panel" aria-labelledby="loginTitle" hidden>
+        <span class="login-icon" aria-hidden="true">⌑</span>
+        <h2 id="loginTitle">Вхід до панелі</h2>
+        <p>Замовлення та контакти доступні лише після входу.</p>
+        <form id="loginForm">
+          <label for="adminPassword">Пароль адміністратора</label>
+          <input id="adminPassword" name="password" type="password" autocomplete="current-password" required minlength="8" />
+          <button class="primary-button" type="submit">Увійти </button>
+        </form>
+        <p id="loginError" class="error-message" role="alert" hidden></p>
+      </section>
+
+      <section id="adminDashboard" hidden aria-label="Панель замовлень">
+        <nav class="admin-tabs" role="tablist" aria-label="Джерело замовлень">
+          <button class="admin-tab is-active" id="statementTab" type="button" role="tab" aria-selected="true" aria-controls="statementPanel" data-admin-tab="statement">Виписка <span id="statementTabCount"></span></button>
+          <button class="admin-tab" id="siteOrdersTab" type="button" role="tab" aria-selected="false" aria-controls="siteOrdersPanel" data-admin-tab="siteOrders">Заявки сайту <span id="siteOrdersTabCount"></span></button>
+        </nav>
+        <div id="ordersNotice" class="orders-notice" role="status" aria-live="polite" hidden></div>
+
+        <section id="statementPanel" class="admin-tab-panel" role="tabpanel" aria-labelledby="statementTab">
+          <div class="statement-account"><div><span class="eyebrow">ДЖЕРЕЛО ДАНИХ</span><strong id="statementTitle">Банківська виписка</strong><span id="statementAccount"></span></div><a id="statementPdfLink" class="export-button" href="/api/admin/statement.pdf" target="_blank" rel="noopener" hidden>Переглянути PDF</a></div>
+          <div class="stat-grid statement-stat-grid">
+            <article class="stat-card"><span>Операцій у виписці</span><strong id="statementStatTotal">0</strong><small id="statementPeriod">Період виписки</small></article>
+            <article class="stat-card"><span>Надходження</span><strong id="statementStatCredits">0</strong><small id="statementCreditAmount">0 ₴</small></article>
+            <article class="stat-card"><span>Списання</span><strong id="statementStatDebits">0</strong><small id="statementDebitAmount">0 ₴</small></article>
+            <article class="stat-card stat-card-accent"><span>Залишок на кінець</span><strong id="statementClosingBalance">0 ₴</strong><small id="statementOpeningBalance">Початковий залишок: 0 ₴</small></article>
+          </div>
+          <section class="orders-panel" aria-labelledby="statementOrdersTitle">
+            <div class="orders-heading"><div><span class="eyebrow">УСІ ОПЕРАЦІЇ З ВИПИСКИ</span><h2 id="statementOrdersTitle">Операції <span id="statementVisibleCount"></span></h2></div><div class="orders-actions"><button id="statementRefreshButton" class="quiet-button" type="button">Оновити список</button><button id="statementExportButton" class="export-button" type="button">Завантажити CSV</button></div></div>
+            <div class="filter-row">
+              <label class="search-field"><span aria-hidden="true">⌕</span><input id="statementSearch" type="search" placeholder="Ім’я, IBAN, деталі, товар, сума" autocomplete="off" aria-label="Пошук операцій виписки" /></label>
+              <label class="filter-select"><span>Тип операції</span><select id="statementDirection"><option value="all">Усі операції</option><option value="credit">Надходження</option><option value="debit">Списання</option></select></label>
+              <label class="filter-date"><span>Від</span><input id="statementFromDate" type="date" aria-label="Від дати виписки" /></label>
+              <label class="filter-date"><span>До</span><input id="statementToDate" type="date" aria-label="До дати виписки" /></label>
+              <button id="statementClearFilters" class="clear-button" type="button">Скинути</button>
+            </div>
+            <div class="table-wrap statement-table-wrap">
+              <table class="statement-table">
+                <thead><tr><th>Дата і час</th><th>Тип</th><th>Платник / деталі</th><th>Сума операції</th><th>Залишок</th><th>Можливий збіг за сумою</th></tr></thead>
+                <tbody id="statementTableBody"></tbody>
+              </table>
+              <div id="emptyStatement" class="empty-orders" hidden><span>A</span><h3>Операцій немає</h3><p>У вибраному проміжку виписки записів немає.</p></div>
+              <div id="noStatementMatches" class="empty-orders compact-empty" hidden><h3>Нічого не знайдено</h3><p>Змініть запит або очистьте фільтри.</p></div>
+            </div>
+            <p class="orders-footnote">Час відображено точно як у виписці. Виписка не містить складу замовлення. Товар визначено лише як можливий збіг за сумою; розгорніть рядок, щоб побачити всі поля та варіанти збігу.</p>
+          </section>
+          <p class="source-download"><a href="/api/admin/statement-original.pdf">Завантажити вихідний файл без змін</a></p><details class="statement-source" hidden><summary>Переглянути повну виписку PDF у панелі</summary><iframe title="Оригінал банківської виписки" src="/api/admin/statement.pdf"></iframe></details>
+        </section>
+
+        <section id="siteOrdersPanel" class="admin-tab-panel" role="tabpanel" aria-labelledby="siteOrdersTab" hidden>
+        <div class="stat-grid">
+          <article class="stat-card"><span>Усього заявок</span><strong id="statTotal">0</strong><small>Збережено на сайті</small></article>
+          <article class="stat-card"><span>Очікують оплату</span><strong id="statWaiting">0</strong><small>Звірте з надходженнями</small></article>
+          <article class="stat-card"><span>Оплачено</span><strong id="statPaid">0</strong><small id="statPaidAmount">0 ₴ підтверджено</small></article>
+          <article class="stat-card stat-card-accent"><span>До обробки</span><strong id="statProcessing">0</strong><small>Оплачені заявки</small></article>
+        </div>
+        <section class="orders-panel" aria-labelledby="ordersTitle">
+          <div class="orders-heading"><div><span class="eyebrow">СПИСОК І ЗВІРКА ОПЛАТ</span><h2 id="ordersTitle">Усі замовлення <span id="visibleCount"></span></h2></div><div class="orders-actions"><button id="refreshButton" class="quiet-button" type="button">Оновити список</button><button id="exportButton" class="export-button" type="button">Завантажити CSV </button></div></div>
+          <div class="filter-row">
+            <label class="search-field"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Номер, ім’я, телефон або товар" autocomplete="off" aria-label="Пошук замовлень" /></label>
+            <label class="filter-select"><span>Статус</span><select id="statusFilter"><option value="all">Усі статуси</option><option value="awaiting_payment">Очікує оплату</option><option value="paid">Оплачено</option><option value="processing">В обробці</option><option value="shipped">Відправлено</option><option value="cancelled">Скасовано</option></select></label>
+            <label class="filter-date"><span>Від</span><input id="fromDate" type="date" aria-label="Від дати" /></label>
+            <label class="filter-date"><span>До</span><input id="toDate" type="date" aria-label="До дати" /></label>
+            <button id="clearFilters" class="clear-button" type="button">Скинути</button>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Замовлення</th><th>Покупець</th><th>Склад</th><th>Сума</th><th>Доставка</th><th>Статус</th></tr></thead>
+              <tbody id="ordersTableBody"></tbody>
+            </table>
+            <div id="emptyOrders" class="empty-orders" hidden><span>A</span><h3>Замовлень поки немає</h3><p>Нові заявки з’являться тут після оформлення на сайті.</p></div>
+            <div id="noMatches" class="empty-orders compact-empty" hidden><h3>Нічого не знайдено</h3><p>Змініть запит або очистьте фільтри.</p></div>
+          </div>
+          <p class="orders-footnote">Переказ не підтверджується автоматично. Перевірте суму та дані платежу у виписці, а потім оновіть статус замовлення.</p>
+        </section>
+        </section>
+      </section>
+    </main>
+    <footer class="admin-footer"><span>AUTORA<span>.</span> · панель замовлень</span><span>Зберігайте доступ до панелі лише для команди.</span></footer>
+  </body>
+</html>
